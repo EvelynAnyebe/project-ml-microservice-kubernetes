@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=evelyn2019/udacity_api
 
 # Step 2:  
 # Authenticate & tag
+docker login 
+docker tag=evelyn2019/udacity_api $dockerpath:latest
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker push evelyn2019/udacity_api:latest
