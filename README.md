@@ -55,4 +55,4 @@ The file structure is described using the root `dir`. When in the root, the foll
 
 Bash scripts like `make_prediction.sh`, `run_docker.sh`,`upload_docker.sh`,`run_kubernetes.sh` used for application operationalization.
 
-Makefile for environment setup and Dockerfile for application containerization.
+`requirement.txt` contains application dependencies, Makefile for environment setup and Dockerfile for application containerization.
